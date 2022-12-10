@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-inner{
+    width: 100%;
+    
+    justify-items: center;
+    align-items: center;
+}
+
+.novidade-1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.divider-1 {
+    height: 2px;
+    background: linear-gradient(
+      270deg,
+      #ddf2f6,
+      #40d9f8)
+    ;
+}
+#Novidades{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(img/smartphone-de-tela-cheia-com-design-de-maquete-de-caneta-psd-premium_444361-249.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(189, 183, 183);
+    
+
+}
+.degrade{
+    margin-top: 200px;
+    background-image: linear-gradient(to bottom, #833ab4,#8f4961,#fd1d1d);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+       
+ }
+
+.comprar{
+    background: linear-gradient(blue,rgb(8, 89, 136));
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.celulares-title-1{
+    display: flex;
+    justify-content: center;
+}
+.celulares-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.celulares-title{
+    margin-top: 50px;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
+#tv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(Tvs/TV.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: rgb(158, 153, 153);
+    
+}
+
+.outros-caixa{
+    width: 48%;
+    height: 0; /* A mágica está aqui */
+    padding-bottom: 48%; /* ... e está aqui */
+    margin: 1%;
+    float: left;
+    position: relative;
+    border-radius: 4%;
+    box-shadow: 5px 1px 5px 5px rgb(44, 42, 53);
+    justify-content: center;
+    
+}
+.container{
+    width: 100%;
+}
+.img-outros{
+    width: 200px;
+    height: 200px;
+}
+.caixa-outros{
+    margin-top: 30%;
+}
