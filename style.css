@@ -107,9 +107,29 @@ body{
     width: 100%;
 }
 .img-outros{
-    width: 200px;
-    height: 200px;
+    width: 40%;
+    height: 40%;
 }
 .caixa-outros{
     margin-top: 30%;
+}
+#redes{
+    align-items: center;
+    margin-top: 30px;
+    width: 87%;
+    height: 30%;
+    background-color: #9ed0da;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.redes-text{
+    margin-top: 2%;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
